@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head >
+        <link rel="stylesheet" href="cssFiles/contact.css">
+        <link rel="stylesheet" href="cssFiles/general.css">
+       
+        <title>Contact page</title>
+        <link rel="stylesheet" href="fonts/css/all.css">
+        <meta name="description" content="Put your description here.">
+
+        <meta name="viewport" content="width=device_width, initial-scale=1" />
+    </head>
+
+    <body>
+        <nav class="nav">
+            
+            <div id="humberger" class="nav__humberger"  ><i class="fa-solid fa-bars "></i></div>
+            <ul id ='nav-list' class="nav__list">
+                <li class="nav__list-element nav__list-element--home"  ><a class="nav__link" tabindex="0" href="index.html" target="_blank">Home</a></li>
+                <li class="nav__list-element" ><a  class="nav__link" tabindex="0" href="login_page.html" target="_blank">Login</a></li>
+                <li class="nav__list-element" ><a class="nav__link"  tabindex="0" href="sign-up_page.html" target="_blank">Sign Up</a></li>
+                <li class="nav__list-element" ><a class="nav__link"  tabindex="0" href="about_page.html" target="_blank">About</a></li>
+                <li class="nav__list-element" ><a class="nav__link"  tabindex="0" href="contact_page.html" target="_blank">contact</a></li>
+                <li class="nav__list-element" ><a class="nav__link"  tabindex="0" href="login_page.html" target="_blank">logout</a></li>
+            </ul>
+
+        </nav>
+       
+
+        <main class="main">
+            <div class="container">
+                <div class="child child--first" >
+
+                    <p class="child__contact">
+                        contact us
+                    </p>
+                    <p class="child__address">
+                        <span class="material-symbols-outlined">
+                            mail
+                            </span> nahomamare52@gmail.com
+                        
+                    </p>
+                    <p class="child__address">
+                        <span class="material-symbols-outlined">
+                            call
+                            </span> 0970737569
+                    </p>
+                           
+                      
+
+                    <p class="child__address"> 
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-telegram"></i>
+                    </p>
+                        
+                       
+                        
+                        
+                        
+                </div>
+                <div class="child child--second">
+                    <p class="child__contact">contact Info</p>
+                    <div class="error" id="error"></div>
+                    <form id="form" class="form">
+                        <label for="first-name">First name</label>
+                        <input class="form__input" type="text" id="first-name" name="first-name">
+                        <label for="last-name">Last name</label>
+                        <input class="form__input" type="text" id="last-name" name="last-name">
+                        <label for="email">Email</label>
+                        <input class="form__input" type="Email" id="email" name="email">
+                        <label for="phone">phone</label>
+                        <input class="form__input" type="tel" id="phone" name="phone">
+                    
+
+                    <label for="text-area">Remark</label>
+                    <textarea placeholder="Enter text" class="form__text-area" name="text-area"></textarea>
+                    <button class="form__button" type="submit" id="submit">Submit</button></form>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-container">
+            <div>
+                <i class="footer-container__icon" class="fa-sharp fa-solid fa-phone"></i> <p class="footer-container__phone">+251970737569</p>
+            </div>
+           <div>
+            <p class="footer-container__comment">
+                YOUR SAFETY AND CONFERT IS OUR ONLY CONCERN
+            </p>
+           </div>
+          
+           <div>
+            
+        
+            <a class="footer-container__link" href="#" tabindex="0" aria-label="our social media links"><i class="fa-brands fa-square-facebook"></i></a>
+            <a class="footer-container__link" href="#"  tabindex="0" aria-label="our social media links"><i class="fa-brands fa-twitter"></i></a>
+            <a class="footer-container__link" href="#" tabindex="0" aria-label="our social media links"><i class="fa-brands fa-telegram"></i></a>
+        </div>
+        </div>
+
+
+         <script src="contact.js"></script>    
+         <script src="javaScript.js"></script>   
+
+        </footer>
+
+    </body>
+</html>
